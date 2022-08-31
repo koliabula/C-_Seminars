@@ -8,38 +8,32 @@ int number = Convert.ToInt32(Console.ReadLine());
 if(number > 0 & number < 8){
 
     if (number == 1) {
-    Console.WriteLine("Понедельник");
+        Console.WriteLine("Понедельник");
     }
     
     if (number == 2) {
-    Console.WriteLine("вторник");
+        Console.WriteLine("вторник");
     }
-
 
     if (number == 3) {
-    Console.WriteLine("среда");
+        Console.WriteLine("среда");
     }
-
 
     if (number == 4) {
-    Console.WriteLine("четверг");
+        Console.WriteLine("четверг");
     }
-
 
     if (number == 5) {
-    Console.WriteLine("Пятница");
+        Console.WriteLine("Пятница");
     }
-
 
     if (number == 6) {
-    Console.WriteLine("Ура!!!! Суббота");   
+        Console.WriteLine("Ура!!!! Суббота");   
     }   
 
-
     if (number == 7) {
-    Console.WriteLine("Воскресение");
+        Console.WriteLine("Воскресение");
     }
-
 }
 else {Console.WriteLine("Ввели не то число))))");}
 
